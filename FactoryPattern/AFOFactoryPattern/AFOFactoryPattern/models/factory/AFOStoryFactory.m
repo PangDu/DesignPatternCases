@@ -15,6 +15,9 @@
 
 @implementation AFOStoryFactory
 - (AFOBooks *)createBooks{
+    return self.storyBooks;
+}
+- (AFOStoryBooks *)storyBooks{
     if (!_storyBooks) {
         _storyBooks = [[AFOStoryBooks alloc] init];
     }

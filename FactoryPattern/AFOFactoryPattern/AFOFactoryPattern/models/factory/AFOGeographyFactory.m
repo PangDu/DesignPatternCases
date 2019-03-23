@@ -13,6 +13,9 @@
 @end
 @implementation AFOGeographyFactory
 - (AFOBooks *)createBooks{
+    return self.geographyBooks;
+}
+- (AFOGeographyBooks *)geographyBooks{
     if (!_geographyBooks) {
         _geographyBooks = [[AFOGeographyBooks alloc] init];
     }

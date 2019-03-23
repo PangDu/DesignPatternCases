@@ -14,6 +14,9 @@
 @end
 @implementation AFOReferenceFactory
 - (AFOBooks *)createBooks{
+    return self.referenceBooks;
+}
+- (AFOReferenceBooks *)referenceBooks{
     if (!_referenceBooks) {
         _referenceBooks = [[AFOReferenceBooks alloc] init];
     }
