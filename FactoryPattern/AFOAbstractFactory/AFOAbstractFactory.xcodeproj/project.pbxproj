@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246973FF22478A230002B7DE /* AFOMechanical.m in Sources */ = {isa = PBXBuildFile; fileRef = 246973FE22478A230002B7DE /* AFOMechanical.m */; };
+		24949316224786ED0096991E /* AFOFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24949315224786ED0096991E /* AFOFactory.m */; };
+		24949319224787120096991E /* AFOPistol.m in Sources */ = {isa = PBXBuildFile; fileRef = 24949318224787120096991E /* AFOPistol.m */; };
+		2494931C2247873A0096991E /* AFOPistolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494931B2247873A0096991E /* AFOPistolFactory.m */; };
+		2494931F224787520096991E /* AFOMachineGunFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494931E224787520096991E /* AFOMachineGunFactory.m */; };
+		24949322224787850096991E /* AFOMachineGun.m in Sources */ = {isa = PBXBuildFile; fileRef = 24949321224787850096991E /* AFOMachineGun.m */; };
 		24CF215C2244E43000590F28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF215B2244E43000590F28 /* AppDelegate.m */; };
-		24CF215F2244E43000590F28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF215E2244E43000590F28 /* ViewController.m */; };
-		24CF21622244E43000590F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF21602244E43000590F28 /* Main.storyboard */; };
+		24CF215F2244E43000590F28 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF215E2244E43000590F28 /* AFOViewController.m */; };
 		24CF21642244E43100590F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CF21632244E43100590F28 /* Assets.xcassets */; };
 		24CF21672244E43100590F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF21652244E43100590F28 /* LaunchScreen.storyboard */; };
 		24CF216A2244E43100590F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF21692244E43100590F28 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246973FD22478A230002B7DE /* AFOMechanical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOMechanical.h; sourceTree = "<group>"; };
+		246973FE22478A230002B7DE /* AFOMechanical.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOMechanical.m; sourceTree = "<group>"; };
+		24949314224786ED0096991E /* AFOFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOFactory.h; sourceTree = "<group>"; };
+		24949315224786ED0096991E /* AFOFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOFactory.m; sourceTree = "<group>"; };
+		24949317224787120096991E /* AFOPistol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOPistol.h; sourceTree = "<group>"; };
+		24949318224787120096991E /* AFOPistol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOPistol.m; sourceTree = "<group>"; };
+		2494931A2247873A0096991E /* AFOPistolFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOPistolFactory.h; sourceTree = "<group>"; };
+		2494931B2247873A0096991E /* AFOPistolFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOPistolFactory.m; sourceTree = "<group>"; };
+		2494931D224787520096991E /* AFOMachineGunFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOMachineGunFactory.h; sourceTree = "<group>"; };
+		2494931E224787520096991E /* AFOMachineGunFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOMachineGunFactory.m; sourceTree = "<group>"; };
+		24949320224787850096991E /* AFOMachineGun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOMachineGun.h; sourceTree = "<group>"; };
+		24949321224787850096991E /* AFOMachineGun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOMachineGun.m; sourceTree = "<group>"; };
 		24CF21572244E43000590F28 /* AFOAbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFOAbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CF215A2244E43000590F28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24CF215B2244E43000590F28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24CF215D2244E43000590F28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24CF215E2244E43000590F28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24CF21612244E43000590F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24CF215D2244E43000590F28 /* AFOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOViewController.h; sourceTree = "<group>"; };
+		24CF215E2244E43000590F28 /* AFOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOViewController.m; sourceTree = "<group>"; };
 		24CF21632244E43100590F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CF21662244E43100590F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24CF21682244E43100590F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +55,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		244C03E5224673BF0049EBAB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2494930F224784AB0096991E /* pistol */,
+				2494930E224784A70096991E /* machineGun */,
+				24949314224786ED0096991E /* AFOFactory.h */,
+				24949315224786ED0096991E /* AFOFactory.m */,
+				246973FD22478A230002B7DE /* AFOMechanical.h */,
+				246973FE22478A230002B7DE /* AFOMechanical.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		244C03E6224673CD0049EBAB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				24CF215D2244E43000590F28 /* AFOViewController.h */,
+				24CF215E2244E43000590F28 /* AFOViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2494930E224784A70096991E /* machineGun */ = {
+			isa = PBXGroup;
+			children = (
+				24949320224787850096991E /* AFOMachineGun.h */,
+				24949321224787850096991E /* AFOMachineGun.m */,
+				2494931D224787520096991E /* AFOMachineGunFactory.h */,
+				2494931E224787520096991E /* AFOMachineGunFactory.m */,
+			);
+			path = machineGun;
+			sourceTree = "<group>";
+		};
+		2494930F224784AB0096991E /* pistol */ = {
+			isa = PBXGroup;
+			children = (
+				24949317224787120096991E /* AFOPistol.h */,
+				24949318224787120096991E /* AFOPistol.m */,
+				2494931A2247873A0096991E /* AFOPistolFactory.h */,
+				2494931B2247873A0096991E /* AFOPistolFactory.m */,
+			);
+			path = pistol;
+			sourceTree = "<group>";
+		};
 		24CF214E2244E43000590F28 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +120,8 @@
 			children = (
 				24CF215A2244E43000590F28 /* AppDelegate.h */,
 				24CF215B2244E43000590F28 /* AppDelegate.m */,
-				24CF215D2244E43000590F28 /* ViewController.h */,
-				24CF215E2244E43000590F28 /* ViewController.m */,
-				24CF21602244E43000590F28 /* Main.storyboard */,
+				244C03E6224673CD0049EBAB /* controller */,
+				244C03E5224673BF0049EBAB /* models */,
 				24CF21632244E43100590F28 /* Assets.xcassets */,
 				24CF21652244E43100590F28 /* LaunchScreen.storyboard */,
 				24CF21682244E43100590F28 /* Info.plist */,
@@ -130,7 +189,6 @@
 			files = (
 				24CF21672244E43100590F28 /* LaunchScreen.storyboard in Resources */,
 				24CF21642244E43100590F28 /* Assets.xcassets in Resources */,
-				24CF21622244E43000590F28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24CF215F2244E43000590F28 /* ViewController.m in Sources */,
+				24949316224786ED0096991E /* AFOFactory.m in Sources */,
+				24CF215F2244E43000590F28 /* AFOViewController.m in Sources */,
+				246973FF22478A230002B7DE /* AFOMechanical.m in Sources */,
+				2494931F224787520096991E /* AFOMachineGunFactory.m in Sources */,
 				24CF216A2244E43100590F28 /* main.m in Sources */,
+				24949322224787850096991E /* AFOMachineGun.m in Sources */,
+				2494931C2247873A0096991E /* AFOPistolFactory.m in Sources */,
+				24949319224787120096991E /* AFOPistol.m in Sources */,
 				24CF215C2244E43000590F28 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +214,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		24CF21602244E43000590F28 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24CF21612244E43000590F28 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24CF21652244E43100590F28 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
