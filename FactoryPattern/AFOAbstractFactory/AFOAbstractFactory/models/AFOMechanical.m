@@ -9,12 +9,6 @@
 #import "AFOMechanical.h"
 
 @implementation AFOMechanical
-- (instancetype)init{
-    if (self = [super init]) {
-        
-    }
-    return self;
-}
 - (NSString *)getName{
     return NSStringFromClass([self class]);
 }

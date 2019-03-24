@@ -10,8 +10,8 @@
 @class AFOMechanical;
 NS_ASSUME_NONNULL_BEGIN
 @interface AFOFactory : NSObject
-- (nonnull AFOMechanical *)cratePistol;
-- (nonnull AFOMechanical *)createMachineGun;
+- (AFOMechanical *)cratePistol;
+- (AFOMechanical *)createMachineGun;
 @end
 
 NS_ASSUME_NONNULL_END

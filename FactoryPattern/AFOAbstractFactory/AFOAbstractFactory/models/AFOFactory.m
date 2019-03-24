@@ -16,13 +16,13 @@
 @end
 
 @implementation AFOFactory
-- (nonnull AFOMechanical *)cratePistol{
-    return self.pistolFactory.pistol;
+- (AFOMechanical *)cratePistol{
+    return (AFOMechanical *)self.pistolFactory.pistol;
 }
-- (nonnull AFOMechanical *)createMachineGun{
-    return self.machineGunFactory.machineGun;
+- (AFOMechanical *)createMachineGun{
+    return (AFOMechanical *)self.machineGunFactory.machineGun;
 }
-- (nonnull AFOPistolFactory *)pistolFactory{
+- (AFOPistolFactory *)pistolFactory{
     if (!_pistolFactory) {
         _pistolFactory = [[AFOPistolFactory alloc] init];
     }

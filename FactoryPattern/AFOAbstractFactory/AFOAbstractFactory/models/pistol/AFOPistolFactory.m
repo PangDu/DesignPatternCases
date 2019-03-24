@@ -13,7 +13,7 @@
 @end
 
 @implementation AFOPistolFactory
-- (nonnull AFOPistol *)pistol{
+- (AFOPistol *)pistol{
     if (!_pistol) {
         _pistol = [[AFOPistol alloc] init];
     }
