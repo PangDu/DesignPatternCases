@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		24C74D052248B03000ECBD15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74D042248B03000ECBD15 /* AppDelegate.m */; };
-		24C74D082248B03000ECBD15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74D072248B03000ECBD15 /* ViewController.m */; };
-		24C74D0B2248B03000ECBD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C74D092248B03000ECBD15 /* Main.storyboard */; };
+		24C74D082248B03000ECBD15 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74D072248B03000ECBD15 /* AFOViewController.m */; };
 		24C74D0D2248B03000ECBD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C74D0C2248B03000ECBD15 /* Assets.xcassets */; };
 		24C74D102248B03000ECBD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C74D0E2248B03000ECBD15 /* LaunchScreen.storyboard */; };
 		24C74D132248B03000ECBD15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74D122248B03000ECBD15 /* main.m */; };
+		24C74D442248B91C00ECBD15 /* AFOPrototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74D432248B91C00ECBD15 /* AFOPrototype.m */; };
+		24C74D472248BE5F00ECBD15 /* AFOCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74D462248BE5F00ECBD15 /* AFOCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24C74D002248B03000ECBD15 /* AFOPrototypePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFOPrototypePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C74D032248B03000ECBD15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24C74D042248B03000ECBD15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24C74D062248B03000ECBD15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24C74D072248B03000ECBD15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24C74D0A2248B03000ECBD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C74D062248B03000ECBD15 /* AFOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOViewController.h; sourceTree = "<group>"; };
+		24C74D072248B03000ECBD15 /* AFOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOViewController.m; sourceTree = "<group>"; };
 		24C74D0C2248B03000ECBD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24C74D0F2248B03000ECBD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C74D112248B03000ECBD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C74D122248B03000ECBD15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C74D422248B91C00ECBD15 /* AFOPrototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOPrototype.h; sourceTree = "<group>"; };
+		24C74D432248B91C00ECBD15 /* AFOPrototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOPrototype.m; sourceTree = "<group>"; };
+		24C74D452248BE5F00ECBD15 /* AFOCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCard.h; sourceTree = "<group>"; };
+		24C74D462248BE5F00ECBD15 /* AFOCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +64,34 @@
 			children = (
 				24C74D032248B03000ECBD15 /* AppDelegate.h */,
 				24C74D042248B03000ECBD15 /* AppDelegate.m */,
-				24C74D062248B03000ECBD15 /* ViewController.h */,
-				24C74D072248B03000ECBD15 /* ViewController.m */,
-				24C74D092248B03000ECBD15 /* Main.storyboard */,
+				24C74D412248B90400ECBD15 /* models */,
+				24C74D402248B8FB00ECBD15 /* controller */,
 				24C74D0C2248B03000ECBD15 /* Assets.xcassets */,
 				24C74D0E2248B03000ECBD15 /* LaunchScreen.storyboard */,
 				24C74D112248B03000ECBD15 /* Info.plist */,
 				24C74D122248B03000ECBD15 /* main.m */,
 			);
 			path = AFOPrototypePattern;
+			sourceTree = "<group>";
+		};
+		24C74D402248B8FB00ECBD15 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				24C74D062248B03000ECBD15 /* AFOViewController.h */,
+				24C74D072248B03000ECBD15 /* AFOViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		24C74D412248B90400ECBD15 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				24C74D422248B91C00ECBD15 /* AFOPrototype.h */,
+				24C74D432248B91C00ECBD15 /* AFOPrototype.m */,
+				24C74D452248BE5F00ECBD15 /* AFOCard.h */,
+				24C74D462248BE5F00ECBD15 /* AFOCard.m */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +153,6 @@
 			files = (
 				24C74D102248B03000ECBD15 /* LaunchScreen.storyboard in Resources */,
 				24C74D0D2248B03000ECBD15 /* Assets.xcassets in Resources */,
-				24C74D0B2248B03000ECBD15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C74D082248B03000ECBD15 /* ViewController.m in Sources */,
+				24C74D082248B03000ECBD15 /* AFOViewController.m in Sources */,
+				24C74D472248BE5F00ECBD15 /* AFOCard.m in Sources */,
+				24C74D442248B91C00ECBD15 /* AFOPrototype.m in Sources */,
 				24C74D132248B03000ECBD15 /* main.m in Sources */,
 				24C74D052248B03000ECBD15 /* AppDelegate.m in Sources */,
 			);
@@ -150,14 +174,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		24C74D092248B03000ECBD15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24C74D0A2248B03000ECBD15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24C74D0E2248B03000ECBD15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
 				INFOPLIST_FILE = AFOPrototypePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
 				INFOPLIST_FILE = AFOPrototypePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AFOViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    AFOViewController *controller = [[AFOViewController alloc] init];
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _window.backgroundColor = [UIColor whiteColor];
+    _window.rootViewController = controller;
+    [_window makeKeyAndVisible];
     return YES;
 }
 

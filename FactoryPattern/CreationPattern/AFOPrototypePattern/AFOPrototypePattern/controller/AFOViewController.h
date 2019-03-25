@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AFOViewController.h
 //  AFOPrototypePattern
 //
 //  Created by xueguang xian on 2019/3/25.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AFOViewController : UIViewController
 
 
 @end
