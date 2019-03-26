@@ -10,7 +10,7 @@
 #import "AFOCard.h"
 #import <objc/runtime.h>
 @interface AFOPrototype ()<NSCopying,NSMutableCopying>
-
+@property (nonatomic, strong)   NSMutableDictionary *dictionary;
 @end
 
 @implementation AFOPrototype
@@ -31,36 +31,38 @@
     return objc;
 }
 - (NSString *)description{
-   return  [self dictionaryToString:self];
+   return [self dictionaryToString:[self classProperty:self]];
 }
-- (NSString *)dictionaryToString:(id)objc{
+- (NSDictionary *)classProperty:(id)objc{
     unsigned int count ,i;
-   __block NSString *strValue;
-    NSString *strData;
     objc_property_t *propertyArray = class_copyPropertyList([objc class], &count);
-    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     for (i = 0; i < count; i++) {
         objc_property_t property = propertyArray[i];
         NSString *proKey = [NSString stringWithCString:property_getName(property) encoding:NSUTF8StringEncoding];
         id proValue = [objc valueForKey:proKey];
         if ([proValue isKindOfClass:[NSString class]] || [proValue isKindOfClass:[NSNumber class]]) {
             if (proValue) {
-                [dic setObject:proValue forKey:proKey];
+                [self.dictionary setObject:proValue forKey:proKey];
             } else {
-                [dic setObject:@"" forKey:proKey];
+                [self.dictionary setObject:@"" forKey:proKey];
             }
+        }else{
+            [self classProperty:proValue];
         }
-        dispatch_barrier_async(dispatch_get_main_queue(), ^{
-            strValue = [self dictionaryToString:proValue];
-            if (strValue != nil) {
-                [strData stringByAppendingString:strValue];
-            }
-        });
     }
     free(propertyArray);
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:0 error:0];
-    strData = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-    NSLog(@"strData====== %@",strData);
+    return self.dictionary;
+}
+- (NSString *)dictionaryToString:(NSDictionary *)dictionary{
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dictionary options:0 error:0];
+    NSString *strData = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     return strData;
+}
+#pragma mark ------ property
+- (NSMutableDictionary *)dictionary{
+    if (!_dictionary) {
+        _dictionary = [[NSMutableDictionary alloc] init];
+    }
+    return _dictionary;
 }
 @end
