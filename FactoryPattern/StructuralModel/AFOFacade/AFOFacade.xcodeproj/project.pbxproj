@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241578082249D59C00150685 /* AFOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 241578072249D59C00150685 /* AFOManager.m */; };
+		2415780C2249D5DF00150685 /* AFOComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2415780B2249D5DF00150685 /* AFOComputer.m */; };
+		2415780F2249D69F00150685 /* AFOCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 2415780E2249D69F00150685 /* AFOCPU.m */; };
+		241578122249D75500150685 /* AFOFan.m in Sources */ = {isa = PBXBuildFile; fileRef = 241578112249D75500150685 /* AFOFan.m */; };
+		241578152249D8D800150685 /* AFOSoundCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 241578142249D8D800150685 /* AFOSoundCard.m */; };
+		241578182249D95800150685 /* AFOGraphicsCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 241578172249D95800150685 /* AFOGraphicsCard.m */; };
 		24C74CE32248ADC600ECBD15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74CE22248ADC600ECBD15 /* AppDelegate.m */; };
 		24C74CE62248ADC600ECBD15 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C74CE52248ADC600ECBD15 /* AFOViewController.m */; };
 		24C74CEB2248ADC800ECBD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C74CEA2248ADC800ECBD15 /* Assets.xcassets */; };
@@ -15,6 +21,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241578062249D59C00150685 /* AFOManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOManager.h; sourceTree = "<group>"; };
+		241578072249D59C00150685 /* AFOManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOManager.m; sourceTree = "<group>"; };
+		2415780A2249D5DF00150685 /* AFOComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOComputer.h; sourceTree = "<group>"; };
+		2415780B2249D5DF00150685 /* AFOComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOComputer.m; sourceTree = "<group>"; };
+		2415780D2249D69F00150685 /* AFOCPU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCPU.h; sourceTree = "<group>"; };
+		2415780E2249D69F00150685 /* AFOCPU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCPU.m; sourceTree = "<group>"; };
+		241578102249D75500150685 /* AFOFan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOFan.h; sourceTree = "<group>"; };
+		241578112249D75500150685 /* AFOFan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOFan.m; sourceTree = "<group>"; };
+		241578132249D8D800150685 /* AFOSoundCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSoundCard.h; sourceTree = "<group>"; };
+		241578142249D8D800150685 /* AFOSoundCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSoundCard.m; sourceTree = "<group>"; };
+		241578162249D95800150685 /* AFOGraphicsCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOGraphicsCard.h; sourceTree = "<group>"; };
+		241578172249D95800150685 /* AFOGraphicsCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOGraphicsCard.m; sourceTree = "<group>"; };
 		24C74CDE2248ADC600ECBD15 /* AFOFacade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFOFacade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C74CE12248ADC600ECBD15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24C74CE22248ADC600ECBD15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +55,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241578042249CCE800150685 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				24C74CE42248ADC600ECBD15 /* AFOViewController.h */,
+				24C74CE52248ADC600ECBD15 /* AFOViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		241578052249CCF500150685 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				241578092249D5B600150685 /* device */,
+				241578062249D59C00150685 /* AFOManager.h */,
+				241578072249D59C00150685 /* AFOManager.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		241578092249D5B600150685 /* device */ = {
+			isa = PBXGroup;
+			children = (
+				2415780A2249D5DF00150685 /* AFOComputer.h */,
+				2415780B2249D5DF00150685 /* AFOComputer.m */,
+				2415780D2249D69F00150685 /* AFOCPU.h */,
+				2415780E2249D69F00150685 /* AFOCPU.m */,
+				241578102249D75500150685 /* AFOFan.h */,
+				241578112249D75500150685 /* AFOFan.m */,
+				241578132249D8D800150685 /* AFOSoundCard.h */,
+				241578142249D8D800150685 /* AFOSoundCard.m */,
+				241578162249D95800150685 /* AFOGraphicsCard.h */,
+				241578172249D95800150685 /* AFOGraphicsCard.m */,
+			);
+			path = device;
+			sourceTree = "<group>";
+		};
 		24C74CD52248ADC600ECBD15 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +112,8 @@
 			children = (
 				24C74CE12248ADC600ECBD15 /* AppDelegate.h */,
 				24C74CE22248ADC600ECBD15 /* AppDelegate.m */,
-				24C74CE42248ADC600ECBD15 /* AFOViewController.h */,
-				24C74CE52248ADC600ECBD15 /* AFOViewController.m */,
+				241578052249CCF500150685 /* models */,
+				241578042249CCE800150685 /* controller */,
 				24C74CEA2248ADC800ECBD15 /* Assets.xcassets */,
 				24C74CEC2248ADC800ECBD15 /* LaunchScreen.storyboard */,
 				24C74CEF2248ADC800ECBD15 /* Info.plist */,
@@ -137,7 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2415780C2249D5DF00150685 /* AFOComputer.m in Sources */,
+				241578082249D59C00150685 /* AFOManager.m in Sources */,
+				241578152249D8D800150685 /* AFOSoundCard.m in Sources */,
+				241578122249D75500150685 /* AFOFan.m in Sources */,
 				24C74CE62248ADC600ECBD15 /* AFOViewController.m in Sources */,
+				2415780F2249D69F00150685 /* AFOCPU.m in Sources */,
+				241578182249D95800150685 /* AFOGraphicsCard.m in Sources */,
 				24C74CF12248ADC800ECBD15 /* main.m in Sources */,
 				24C74CE32248ADC600ECBD15 /* AppDelegate.m in Sources */,
 			);
