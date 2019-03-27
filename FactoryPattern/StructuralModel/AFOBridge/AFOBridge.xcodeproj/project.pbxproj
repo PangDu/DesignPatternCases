@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244C342F224B89B0008054E4 /* AFOCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C342E224B89B0008054E4 /* AFOCars.m */; };
+		244C3432224B89BF008054E4 /* AFOSeats.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3431224B89BF008054E4 /* AFOSeats.m */; };
+		244C3435224B89D5008054E4 /* AFOHeadlights.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3434224B89D5008054E4 /* AFOHeadlights.m */; };
+		244C3438224B89E9008054E4 /* AFOColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3437224B89E9008054E4 /* AFOColors.m */; };
+		244C343B224B8A20008054E4 /* AFOPickup.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C343A224B8A20008054E4 /* AFOPickup.m */; };
+		244C343E224B8A45008054E4 /* AFOSportsCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C343D224B8A45008054E4 /* AFOSportsCar.m */; };
+		244C3441224B8A72008054E4 /* AFOSUV.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3440224B8A72008054E4 /* AFOSUV.m */; };
+		244C3444224B8AA4008054E4 /* AFOGenuineLeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3443224B8AA4008054E4 /* AFOGenuineLeather.m */; };
+		244C3447224B8AC5008054E4 /* AFOArtificialLeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3446224B8AC5008054E4 /* AFOArtificialLeather.m */; };
+		244C344A224B8AEB008054E4 /* AFOCloth.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3449224B8AEB008054E4 /* AFOCloth.m */; };
+		244C344D224B8B2D008054E4 /* AFOCircular.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C344C224B8B2D008054E4 /* AFOCircular.m */; };
+		244C3450224B8B49008054E4 /* AFOTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C344F224B8B49008054E4 /* AFOTriangle.m */; };
+		244C3453224B8B8F008054E4 /* AFOSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3452224B8B8F008054E4 /* AFOSquare.m */; };
+		244C3456224B8BB9008054E4 /* AFOWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3455224B8BB9008054E4 /* AFOWhite.m */; };
+		244C3459224B8C0F008054E4 /* AFOBeige.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C3458224B8C0F008054E4 /* AFOBeige.m */; };
+		244C345C224B8C39008054E4 /* AFORed.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C345B224B8C39008054E4 /* AFORed.m */; };
+		24CC6252224BAA8F006B8D23 /* AFOCarsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC6251224BAA8F006B8D23 /* AFOCarsBuilder.m */; };
+		24CC6255224BAD00006B8D23 /* AFOSeatsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC6254224BAD00006B8D23 /* AFOSeatsBuilder.m */; };
+		24CC6258224BAEA2006B8D23 /* AFOHeadlightsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC6257224BAEA2006B8D23 /* AFOHeadlightsBuilder.m */; };
+		24CC625B224BAEBA006B8D23 /* AFOColorsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC625A224BAEBA006B8D23 /* AFOColorsBuilder.m */; };
+		24D16BB4224B6AEB00A991A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D16BB3224B6AEB00A991A7 /* AppDelegate.m */; };
+		24D16BB7224B6AEB00A991A7 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D16BB6224B6AEB00A991A7 /* AFOViewController.m */; };
+		24D16BBC224B6AEC00A991A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D16BBB224B6AEC00A991A7 /* Assets.xcassets */; };
+		24D16BBF224B6AEC00A991A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D16BBD224B6AEC00A991A7 /* LaunchScreen.storyboard */; };
+		24D16BC2224B6AEC00A991A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D16BC1224B6AEC00A991A7 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		244C342D224B89B0008054E4 /* AFOCars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCars.h; sourceTree = "<group>"; };
+		244C342E224B89B0008054E4 /* AFOCars.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCars.m; sourceTree = "<group>"; };
+		244C3430224B89BF008054E4 /* AFOSeats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSeats.h; sourceTree = "<group>"; };
+		244C3431224B89BF008054E4 /* AFOSeats.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSeats.m; sourceTree = "<group>"; };
+		244C3433224B89D5008054E4 /* AFOHeadlights.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHeadlights.h; sourceTree = "<group>"; };
+		244C3434224B89D5008054E4 /* AFOHeadlights.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOHeadlights.m; sourceTree = "<group>"; };
+		244C3436224B89E9008054E4 /* AFOColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOColors.h; sourceTree = "<group>"; };
+		244C3437224B89E9008054E4 /* AFOColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOColors.m; sourceTree = "<group>"; };
+		244C3439224B8A20008054E4 /* AFOPickup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOPickup.h; sourceTree = "<group>"; };
+		244C343A224B8A20008054E4 /* AFOPickup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOPickup.m; sourceTree = "<group>"; };
+		244C343C224B8A45008054E4 /* AFOSportsCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSportsCar.h; sourceTree = "<group>"; };
+		244C343D224B8A45008054E4 /* AFOSportsCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSportsCar.m; sourceTree = "<group>"; };
+		244C343F224B8A72008054E4 /* AFOSUV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSUV.h; sourceTree = "<group>"; };
+		244C3440224B8A72008054E4 /* AFOSUV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSUV.m; sourceTree = "<group>"; };
+		244C3442224B8AA4008054E4 /* AFOGenuineLeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOGenuineLeather.h; sourceTree = "<group>"; };
+		244C3443224B8AA4008054E4 /* AFOGenuineLeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOGenuineLeather.m; sourceTree = "<group>"; };
+		244C3445224B8AC4008054E4 /* AFOArtificialLeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOArtificialLeather.h; sourceTree = "<group>"; };
+		244C3446224B8AC5008054E4 /* AFOArtificialLeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOArtificialLeather.m; sourceTree = "<group>"; };
+		244C3448224B8AEB008054E4 /* AFOCloth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCloth.h; sourceTree = "<group>"; };
+		244C3449224B8AEB008054E4 /* AFOCloth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCloth.m; sourceTree = "<group>"; };
+		244C344B224B8B2D008054E4 /* AFOCircular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCircular.h; sourceTree = "<group>"; };
+		244C344C224B8B2D008054E4 /* AFOCircular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCircular.m; sourceTree = "<group>"; };
+		244C344E224B8B49008054E4 /* AFOTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOTriangle.h; sourceTree = "<group>"; };
+		244C344F224B8B49008054E4 /* AFOTriangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOTriangle.m; sourceTree = "<group>"; };
+		244C3451224B8B8F008054E4 /* AFOSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSquare.h; sourceTree = "<group>"; };
+		244C3452224B8B8F008054E4 /* AFOSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSquare.m; sourceTree = "<group>"; };
+		244C3454224B8BB9008054E4 /* AFOWhite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOWhite.h; sourceTree = "<group>"; };
+		244C3455224B8BB9008054E4 /* AFOWhite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOWhite.m; sourceTree = "<group>"; };
+		244C3457224B8C0F008054E4 /* AFOBeige.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOBeige.h; sourceTree = "<group>"; };
+		244C3458224B8C0F008054E4 /* AFOBeige.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOBeige.m; sourceTree = "<group>"; };
+		244C345A224B8C39008054E4 /* AFORed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFORed.h; sourceTree = "<group>"; };
+		244C345B224B8C39008054E4 /* AFORed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFORed.m; sourceTree = "<group>"; };
+		24CC6250224BAA8F006B8D23 /* AFOCarsBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCarsBuilder.h; sourceTree = "<group>"; };
+		24CC6251224BAA8F006B8D23 /* AFOCarsBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCarsBuilder.m; sourceTree = "<group>"; };
+		24CC6253224BAD00006B8D23 /* AFOSeatsBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSeatsBuilder.h; sourceTree = "<group>"; };
+		24CC6254224BAD00006B8D23 /* AFOSeatsBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSeatsBuilder.m; sourceTree = "<group>"; };
+		24CC6256224BAEA2006B8D23 /* AFOHeadlightsBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOHeadlightsBuilder.h; sourceTree = "<group>"; };
+		24CC6257224BAEA2006B8D23 /* AFOHeadlightsBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOHeadlightsBuilder.m; sourceTree = "<group>"; };
+		24CC6259224BAEBA006B8D23 /* AFOColorsBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOColorsBuilder.h; sourceTree = "<group>"; };
+		24CC625A224BAEBA006B8D23 /* AFOColorsBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOColorsBuilder.m; sourceTree = "<group>"; };
+		24D16BAF224B6AEA00A991A7 /* AFOBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFOBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D16BB2224B6AEB00A991A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24D16BB3224B6AEB00A991A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24D16BB5224B6AEB00A991A7 /* AFOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOViewController.h; sourceTree = "<group>"; };
+		24D16BB6224B6AEB00A991A7 /* AFOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOViewController.m; sourceTree = "<group>"; };
+		24D16BBB224B6AEC00A991A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D16BBE224B6AEC00A991A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24D16BC0224B6AEC00A991A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D16BC1224B6AEC00A991A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D16BAC224B6AEA00A991A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244C3429224B88B7008054E4 /* cars */ = {
+			isa = PBXGroup;
+			children = (
+				244C342D224B89B0008054E4 /* AFOCars.h */,
+				244C342E224B89B0008054E4 /* AFOCars.m */,
+				244C3439224B8A20008054E4 /* AFOPickup.h */,
+				244C343A224B8A20008054E4 /* AFOPickup.m */,
+				244C343C224B8A45008054E4 /* AFOSportsCar.h */,
+				244C343D224B8A45008054E4 /* AFOSportsCar.m */,
+				244C343F224B8A72008054E4 /* AFOSUV.h */,
+				244C3440224B8A72008054E4 /* AFOSUV.m */,
+				24CC6250224BAA8F006B8D23 /* AFOCarsBuilder.h */,
+				24CC6251224BAA8F006B8D23 /* AFOCarsBuilder.m */,
+			);
+			path = cars;
+			sourceTree = "<group>";
+		};
+		244C342A224B88C4008054E4 /* colors */ = {
+			isa = PBXGroup;
+			children = (
+				244C3436224B89E9008054E4 /* AFOColors.h */,
+				244C3437224B89E9008054E4 /* AFOColors.m */,
+				244C3454224B8BB9008054E4 /* AFOWhite.h */,
+				244C3455224B8BB9008054E4 /* AFOWhite.m */,
+				244C3457224B8C0F008054E4 /* AFOBeige.h */,
+				244C3458224B8C0F008054E4 /* AFOBeige.m */,
+				244C345A224B8C39008054E4 /* AFORed.h */,
+				244C345B224B8C39008054E4 /* AFORed.m */,
+				24CC6259224BAEBA006B8D23 /* AFOColorsBuilder.h */,
+				24CC625A224BAEBA006B8D23 /* AFOColorsBuilder.m */,
+			);
+			path = colors;
+			sourceTree = "<group>";
+		};
+		244C342B224B890F008054E4 /* headlights */ = {
+			isa = PBXGroup;
+			children = (
+				244C3433224B89D5008054E4 /* AFOHeadlights.h */,
+				244C3434224B89D5008054E4 /* AFOHeadlights.m */,
+				244C344B224B8B2D008054E4 /* AFOCircular.h */,
+				244C344C224B8B2D008054E4 /* AFOCircular.m */,
+				244C344E224B8B49008054E4 /* AFOTriangle.h */,
+				244C344F224B8B49008054E4 /* AFOTriangle.m */,
+				244C3451224B8B8F008054E4 /* AFOSquare.h */,
+				244C3452224B8B8F008054E4 /* AFOSquare.m */,
+				24CC6256224BAEA2006B8D23 /* AFOHeadlightsBuilder.h */,
+				24CC6257224BAEA2006B8D23 /* AFOHeadlightsBuilder.m */,
+			);
+			path = headlights;
+			sourceTree = "<group>";
+		};
+		244C342C224B8941008054E4 /* seats */ = {
+			isa = PBXGroup;
+			children = (
+				244C3430224B89BF008054E4 /* AFOSeats.h */,
+				244C3431224B89BF008054E4 /* AFOSeats.m */,
+				244C3442224B8AA4008054E4 /* AFOGenuineLeather.h */,
+				244C3443224B8AA4008054E4 /* AFOGenuineLeather.m */,
+				244C3445224B8AC4008054E4 /* AFOArtificialLeather.h */,
+				244C3446224B8AC5008054E4 /* AFOArtificialLeather.m */,
+				244C3448224B8AEB008054E4 /* AFOCloth.h */,
+				244C3449224B8AEB008054E4 /* AFOCloth.m */,
+				24CC6253224BAD00006B8D23 /* AFOSeatsBuilder.h */,
+				24CC6254224BAD00006B8D23 /* AFOSeatsBuilder.m */,
+			);
+			path = seats;
+			sourceTree = "<group>";
+		};
+		24D16BA6224B6AEA00A991A7 = {
+			isa = PBXGroup;
+			children = (
+				24D16BB1224B6AEB00A991A7 /* AFOBridge */,
+				24D16BB0224B6AEA00A991A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D16BB0224B6AEA00A991A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D16BAF224B6AEA00A991A7 /* AFOBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D16BB1224B6AEB00A991A7 /* AFOBridge */ = {
+			isa = PBXGroup;
+			children = (
+				24D16BB2224B6AEB00A991A7 /* AppDelegate.h */,
+				24D16BB3224B6AEB00A991A7 /* AppDelegate.m */,
+				24D16BC9224B6B2800A991A7 /* models */,
+				24D16BC8224B6B1700A991A7 /* controller */,
+				24D16BBB224B6AEC00A991A7 /* Assets.xcassets */,
+				24D16BBD224B6AEC00A991A7 /* LaunchScreen.storyboard */,
+				24D16BC0224B6AEC00A991A7 /* Info.plist */,
+				24D16BC1224B6AEC00A991A7 /* main.m */,
+			);
+			path = AFOBridge;
+			sourceTree = "<group>";
+		};
+		24D16BC8224B6B1700A991A7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				24D16BB5224B6AEB00A991A7 /* AFOViewController.h */,
+				24D16BB6224B6AEB00A991A7 /* AFOViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		24D16BC9224B6B2800A991A7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				244C3429224B88B7008054E4 /* cars */,
+				244C342C224B8941008054E4 /* seats */,
+				244C342B224B890F008054E4 /* headlights */,
+				244C342A224B88C4008054E4 /* colors */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D16BAE224B6AEA00A991A7 /* AFOBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D16BC5224B6AEC00A991A7 /* Build configuration list for PBXNativeTarget "AFOBridge" */;
+			buildPhases = (
+				24D16BAB224B6AEA00A991A7 /* Sources */,
+				24D16BAC224B6AEA00A991A7 /* Frameworks */,
+				24D16BAD224B6AEA00A991A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFOBridge;
+			productName = AFOBridge;
+			productReference = 24D16BAF224B6AEA00A991A7 /* AFOBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D16BA7224B6AEA00A991A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "AFO Science Technology Ltd";
+				TargetAttributes = {
+					24D16BAE224B6AEA00A991A7 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 24D16BAA224B6AEA00A991A7 /* Build configuration list for PBXProject "AFOBridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D16BA6224B6AEA00A991A7;
+			productRefGroup = 24D16BB0224B6AEA00A991A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D16BAE224B6AEA00A991A7 /* AFOBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D16BAD224B6AEA00A991A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D16BBF224B6AEC00A991A7 /* LaunchScreen.storyboard in Resources */,
+				24D16BBC224B6AEC00A991A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D16BAB224B6AEA00A991A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CC6255224BAD00006B8D23 /* AFOSeatsBuilder.m in Sources */,
+				244C3447224B8AC5008054E4 /* AFOArtificialLeather.m in Sources */,
+				244C344D224B8B2D008054E4 /* AFOCircular.m in Sources */,
+				244C343B224B8A20008054E4 /* AFOPickup.m in Sources */,
+				24D16BB7224B6AEB00A991A7 /* AFOViewController.m in Sources */,
+				244C343E224B8A45008054E4 /* AFOSportsCar.m in Sources */,
+				24CC6252224BAA8F006B8D23 /* AFOCarsBuilder.m in Sources */,
+				244C3456224B8BB9008054E4 /* AFOWhite.m in Sources */,
+				244C3432224B89BF008054E4 /* AFOSeats.m in Sources */,
+				244C344A224B8AEB008054E4 /* AFOCloth.m in Sources */,
+				244C3438224B89E9008054E4 /* AFOColors.m in Sources */,
+				244C3459224B8C0F008054E4 /* AFOBeige.m in Sources */,
+				24D16BC2224B6AEC00A991A7 /* main.m in Sources */,
+				244C3444224B8AA4008054E4 /* AFOGenuineLeather.m in Sources */,
+				244C345C224B8C39008054E4 /* AFORed.m in Sources */,
+				244C3450224B8B49008054E4 /* AFOTriangle.m in Sources */,
+				244C3435224B89D5008054E4 /* AFOHeadlights.m in Sources */,
+				24D16BB4224B6AEB00A991A7 /* AppDelegate.m in Sources */,
+				244C3453224B8B8F008054E4 /* AFOSquare.m in Sources */,
+				244C342F224B89B0008054E4 /* AFOCars.m in Sources */,
+				244C3441224B8A72008054E4 /* AFOSUV.m in Sources */,
+				24CC625B224BAEBA006B8D23 /* AFOColorsBuilder.m in Sources */,
+				24CC6258224BAEA2006B8D23 /* AFOHeadlightsBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24D16BBD224B6AEC00A991A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D16BBE224B6AEC00A991A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D16BC3224B6AEC00A991A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24D16BC4224B6AEC00A991A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D16BC6224B6AEC00A991A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				INFOPLIST_FILE = AFOBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AFO.AFOBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D16BC7224B6AEC00A991A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				INFOPLIST_FILE = AFOBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AFO.AFOBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D16BAA224B6AEA00A991A7 /* Build configuration list for PBXProject "AFOBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D16BC3224B6AEC00A991A7 /* Debug */,
+				24D16BC4224B6AEC00A991A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D16BC5224B6AEC00A991A7 /* Build configuration list for PBXNativeTarget "AFOBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D16BC6224B6AEC00A991A7 /* Debug */,
+				24D16BC7224B6AEC00A991A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D16BA7224B6AEA00A991A7 /* Project object */;
+}
