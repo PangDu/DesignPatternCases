@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24748341224E0A3F00F41FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24748340224E0A3F00F41FEA /* AppDelegate.m */; };
+		24748344224E0A3F00F41FEA /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24748343224E0A3F00F41FEA /* AFOViewController.m */; };
+		24748349224E0A4000F41FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24748348224E0A4000F41FEA /* Assets.xcassets */; };
+		2474834C224E0A4000F41FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2474834A224E0A4000F41FEA /* LaunchScreen.storyboard */; };
+		2474834F224E0A4000F41FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2474834E224E0A4000F41FEA /* main.m */; };
+		24748359224E0B2F00F41FEA /* AFOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 24748358224E0B2F00F41FEA /* AFOObserver.m */; };
+		2474835C224E0B5E00F41FEA /* AFOCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2474835B224E0B5E00F41FEA /* AFOCar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2474833C224E0A3F00F41FEA /* AFOObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFOObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2474833F224E0A3F00F41FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24748340224E0A3F00F41FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24748342224E0A3F00F41FEA /* AFOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOViewController.h; sourceTree = "<group>"; };
+		24748343224E0A3F00F41FEA /* AFOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOViewController.m; sourceTree = "<group>"; };
+		24748348224E0A4000F41FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2474834B224E0A4000F41FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2474834D224E0A4000F41FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2474834E224E0A4000F41FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24748357224E0B2F00F41FEA /* AFOObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOObserver.h; sourceTree = "<group>"; };
+		24748358224E0B2F00F41FEA /* AFOObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOObserver.m; sourceTree = "<group>"; };
+		2474835A224E0B5E00F41FEA /* AFOCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCar.h; sourceTree = "<group>"; };
+		2474835B224E0B5E00F41FEA /* AFOCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24748339224E0A3F00F41FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24748333224E0A3F00F41FEA = {
+			isa = PBXGroup;
+			children = (
+				2474833E224E0A3F00F41FEA /* AFOObserver */,
+				2474833D224E0A3F00F41FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2474833D224E0A3F00F41FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2474833C224E0A3F00F41FEA /* AFOObserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2474833E224E0A3F00F41FEA /* AFOObserver */ = {
+			isa = PBXGroup;
+			children = (
+				2474833F224E0A3F00F41FEA /* AppDelegate.h */,
+				24748340224E0A3F00F41FEA /* AppDelegate.m */,
+				24748356224E0A8F00F41FEA /* models */,
+				24748355224E0A8400F41FEA /* controller */,
+				24748348224E0A4000F41FEA /* Assets.xcassets */,
+				2474834A224E0A4000F41FEA /* LaunchScreen.storyboard */,
+				2474834D224E0A4000F41FEA /* Info.plist */,
+				2474834E224E0A4000F41FEA /* main.m */,
+			);
+			path = AFOObserver;
+			sourceTree = "<group>";
+		};
+		24748355224E0A8400F41FEA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				24748342224E0A3F00F41FEA /* AFOViewController.h */,
+				24748343224E0A3F00F41FEA /* AFOViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		24748356224E0A8F00F41FEA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2474835A224E0B5E00F41FEA /* AFOCar.h */,
+				2474835B224E0B5E00F41FEA /* AFOCar.m */,
+				24748357224E0B2F00F41FEA /* AFOObserver.h */,
+				24748358224E0B2F00F41FEA /* AFOObserver.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2474833B224E0A3F00F41FEA /* AFOObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24748352224E0A4000F41FEA /* Build configuration list for PBXNativeTarget "AFOObserver" */;
+			buildPhases = (
+				24748338224E0A3F00F41FEA /* Sources */,
+				24748339224E0A3F00F41FEA /* Frameworks */,
+				2474833A224E0A3F00F41FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFOObserver;
+			productName = AFOObserver;
+			productReference = 2474833C224E0A3F00F41FEA /* AFOObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24748334224E0A3F00F41FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "AFO Science Technology Ltd";
+				TargetAttributes = {
+					2474833B224E0A3F00F41FEA = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 24748337224E0A3F00F41FEA /* Build configuration list for PBXProject "AFOObserver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24748333224E0A3F00F41FEA;
+			productRefGroup = 2474833D224E0A3F00F41FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2474833B224E0A3F00F41FEA /* AFOObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2474833A224E0A3F00F41FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2474834C224E0A4000F41FEA /* LaunchScreen.storyboard in Resources */,
+				24748349224E0A4000F41FEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24748338224E0A3F00F41FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2474835C224E0B5E00F41FEA /* AFOCar.m in Sources */,
+				24748344224E0A3F00F41FEA /* AFOViewController.m in Sources */,
+				2474834F224E0A4000F41FEA /* main.m in Sources */,
+				24748359224E0B2F00F41FEA /* AFOObserver.m in Sources */,
+				24748341224E0A3F00F41FEA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2474834A224E0A4000F41FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2474834B224E0A4000F41FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24748350224E0A4000F41FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24748351224E0A4000F41FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24748353224E0A4000F41FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				INFOPLIST_FILE = AFOObserver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AFO.AFOObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24748354224E0A4000F41FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				INFOPLIST_FILE = AFOObserver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AFO.AFOObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24748337224E0A3F00F41FEA /* Build configuration list for PBXProject "AFOObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24748350224E0A4000F41FEA /* Debug */,
+				24748351224E0A4000F41FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24748352224E0A4000F41FEA /* Build configuration list for PBXNativeTarget "AFOObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24748353224E0A4000F41FEA /* Debug */,
+				24748354224E0A4000F41FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24748334224E0A3F00F41FEA /* Project object */;
+}
