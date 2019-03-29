@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C5A08E224E4F0E0072724A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5A08D224E4F0E0072724A /* AppDelegate.m */; };
+		24C5A091224E4F0E0072724A /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5A090224E4F0E0072724A /* AFOViewController.m */; };
+		24C5A096224E4F100072724A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C5A095224E4F100072724A /* Assets.xcassets */; };
+		24C5A099224E4F100072724A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C5A097224E4F100072724A /* LaunchScreen.storyboard */; };
+		24C5A09C224E4F100072724A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5A09B224E4F100072724A /* main.m */; };
+		24C5A0A6224E51640072724A /* AFODodishTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5A0A5224E51640072724A /* AFODodishTemplate.m */; };
+		24C5A0A9224E51E60072724A /* AFOScrambledEggForTomato.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5A0A8224E51E60072724A /* AFOScrambledEggForTomato.m */; };
+		24C5A0AC224E520A0072724A /* AFOBraisedPork.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5A0AB224E520A0072724A /* AFOBraisedPork.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24C5A089224E4F0E0072724A /* AFOTemplatePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFOTemplatePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C5A08C224E4F0E0072724A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24C5A08D224E4F0E0072724A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24C5A08F224E4F0E0072724A /* AFOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOViewController.h; sourceTree = "<group>"; };
+		24C5A090224E4F0E0072724A /* AFOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOViewController.m; sourceTree = "<group>"; };
+		24C5A095224E4F100072724A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C5A098224E4F100072724A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24C5A09A224E4F100072724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C5A09B224E4F100072724A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C5A0A4224E51640072724A /* AFODodishTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFODodishTemplate.h; sourceTree = "<group>"; };
+		24C5A0A5224E51640072724A /* AFODodishTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFODodishTemplate.m; sourceTree = "<group>"; };
+		24C5A0A7224E51E60072724A /* AFOScrambledEggForTomato.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOScrambledEggForTomato.h; sourceTree = "<group>"; };
+		24C5A0A8224E51E60072724A /* AFOScrambledEggForTomato.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOScrambledEggForTomato.m; sourceTree = "<group>"; };
+		24C5A0AA224E520A0072724A /* AFOBraisedPork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOBraisedPork.h; sourceTree = "<group>"; };
+		24C5A0AB224E520A0072724A /* AFOBraisedPork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOBraisedPork.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C5A086224E4F0E0072724A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C5A080224E4F0E0072724A = {
+			isa = PBXGroup;
+			children = (
+				24C5A08B224E4F0E0072724A /* AFOTemplatePattern */,
+				24C5A08A224E4F0E0072724A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C5A08A224E4F0E0072724A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C5A089224E4F0E0072724A /* AFOTemplatePattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C5A08B224E4F0E0072724A /* AFOTemplatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				24C5A08C224E4F0E0072724A /* AppDelegate.h */,
+				24C5A08D224E4F0E0072724A /* AppDelegate.m */,
+				24C5A0A3224E4F7B0072724A /* models */,
+				24C5A0A2224E4F3B0072724A /* controller */,
+				24C5A095224E4F100072724A /* Assets.xcassets */,
+				24C5A097224E4F100072724A /* LaunchScreen.storyboard */,
+				24C5A09A224E4F100072724A /* Info.plist */,
+				24C5A09B224E4F100072724A /* main.m */,
+			);
+			path = AFOTemplatePattern;
+			sourceTree = "<group>";
+		};
+		24C5A0A2224E4F3B0072724A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				24C5A08F224E4F0E0072724A /* AFOViewController.h */,
+				24C5A090224E4F0E0072724A /* AFOViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		24C5A0A3224E4F7B0072724A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				24C5A0A4224E51640072724A /* AFODodishTemplate.h */,
+				24C5A0A5224E51640072724A /* AFODodishTemplate.m */,
+				24C5A0A7224E51E60072724A /* AFOScrambledEggForTomato.h */,
+				24C5A0A8224E51E60072724A /* AFOScrambledEggForTomato.m */,
+				24C5A0AA224E520A0072724A /* AFOBraisedPork.h */,
+				24C5A0AB224E520A0072724A /* AFOBraisedPork.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C5A088224E4F0E0072724A /* AFOTemplatePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C5A09F224E4F100072724A /* Build configuration list for PBXNativeTarget "AFOTemplatePattern" */;
+			buildPhases = (
+				24C5A085224E4F0E0072724A /* Sources */,
+				24C5A086224E4F0E0072724A /* Frameworks */,
+				24C5A087224E4F0E0072724A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFOTemplatePattern;
+			productName = AFOTemplatePattern;
+			productReference = 24C5A089224E4F0E0072724A /* AFOTemplatePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C5A081224E4F0E0072724A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "AFO Science Technology Ltd";
+				TargetAttributes = {
+					24C5A088224E4F0E0072724A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 24C5A084224E4F0E0072724A /* Build configuration list for PBXProject "AFOTemplatePattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C5A080224E4F0E0072724A;
+			productRefGroup = 24C5A08A224E4F0E0072724A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C5A088224E4F0E0072724A /* AFOTemplatePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C5A087224E4F0E0072724A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C5A099224E4F100072724A /* LaunchScreen.storyboard in Resources */,
+				24C5A096224E4F100072724A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C5A085224E4F0E0072724A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C5A091224E4F0E0072724A /* AFOViewController.m in Sources */,
+				24C5A09C224E4F100072724A /* main.m in Sources */,
+				24C5A08E224E4F0E0072724A /* AppDelegate.m in Sources */,
+				24C5A0A9224E51E60072724A /* AFOScrambledEggForTomato.m in Sources */,
+				24C5A0A6224E51640072724A /* AFODodishTemplate.m in Sources */,
+				24C5A0AC224E520A0072724A /* AFOBraisedPork.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C5A097224E4F100072724A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C5A098224E4F100072724A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C5A09D224E4F100072724A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24C5A09E224E4F100072724A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C5A0A0224E4F100072724A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				INFOPLIST_FILE = AFOTemplatePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AFO.AFOTemplatePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C5A0A1224E4F100072724A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				INFOPLIST_FILE = AFOTemplatePattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AFO.AFOTemplatePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C5A084224E4F0E0072724A /* Build configuration list for PBXProject "AFOTemplatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C5A09D224E4F100072724A /* Debug */,
+				24C5A09E224E4F100072724A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C5A09F224E4F100072724A /* Build configuration list for PBXNativeTarget "AFOTemplatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C5A0A0224E4F100072724A /* Debug */,
+				24C5A0A1224E4F100072724A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C5A081224E4F0E0072724A /* Project object */;
+}
