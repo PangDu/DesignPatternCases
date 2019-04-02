@@ -11,3 +11,5 @@ AFODelegate : 代理模式
 AFOFacade : 外观模式
 
 AFOFlyweightPattern : 享元模式
+
+AFOFilterPattern : 过滤器模式
