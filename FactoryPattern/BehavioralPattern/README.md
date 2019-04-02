@@ -15,3 +15,5 @@ AFOResponsibilityPattern : 责任链模式
 AFOVisitorPatter : 访问者模式
 
 AFOMementoPattern : 备忘录模式
+
+AFOFilterPattern : 过滤器模式
