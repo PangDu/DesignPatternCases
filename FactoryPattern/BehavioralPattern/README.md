@@ -9,3 +9,5 @@ AFOStrategyPattern : 策略模式
 AFOStatePattern : 状态模式
 
 AFOCommandPattern : 命令模式
+
+AFOResponsibilityPattern : 责任链模式
