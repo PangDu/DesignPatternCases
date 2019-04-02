@@ -11,3 +11,5 @@ AFOStatePattern : 状态模式
 AFOCommandPattern : 命令模式
 
 AFOResponsibilityPattern : 责任链模式
+
+AFOVisitorPatter : 访问者模式
