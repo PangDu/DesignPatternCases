@@ -16,4 +16,4 @@ AFOVisitorPatter : 访问者模式
 
 AFOMementoPattern : 备忘录模式
 
-
+AFOIteratorPattern : 迭代器模式
